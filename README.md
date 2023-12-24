@@ -36,16 +36,22 @@ Wei Yuan, Chen Zhao, Erding Liao
 > 
 > ![image](imgs/long_short_portfolio_summary.png) | ![image](imgs/long_short_monthly_return.png)
 > --- | ---
+> ![image](imgs/long_short_cost_portfolio_summary.png) | ![image](imgs/long_short_cost_monthly_return.png)
+> --- | ---
 >> The long-short ratio strategy displayed a Sharpe ratio of 0.98, which is close to the ideal benchmark of 1. This metric indicates that the strategy was able to deliver near-unit excess return for each unit of risk taken. Given the often volatile nature of cryptocurrency markets, achieving a Sharpe ratio near 1 is commendable and suggests that the strategy effectively managed the trade-off between risk and return.
 >> When considering the replication of past results, the strategy showed periods of consistent performance, as indicated by the relatively smooth cumulative return curve in the earlier provided plot. This indicates that the strategy, once successful, was able to repeatedly capitalize on the market conditions it was designed to exploit, a positive sign for its replicability.
 > #### 3.2 Bias indicator
 > ![image](imgs/bias_portfolio_summary.png) | ![image](imgs/bias_monthly_return.png)
+> --- | ---
+> ![image](imgs/bias_cost_portfolio_summary.png) | ![image](imgs/bias_cost_monthly_return.png)
 > --- | ---
 >> The Bias indicator excels in identifying market trends. A positive and increasing Bias value indicates a strengthening bullish trend, and vice versa for a bearish trend. Over the observed period, the indicator has facilitated the capitalization on sustained price movements, contributing to the $97.18\%$ cumulative return and a CAGR of $35.15\%$. The Sharpe ratio of $0.94$, although slightly lower than the Long/Short Ratio strategy, still indicates a solid risk-adjusted return. The Positive Sharpe Ratio Probability of $92.46\%$ provides confidence in the consistency of the strategy's risk-adjusted performance.
 >> 
 >> However, as with all indicators based on moving averages, the Bias is inherently a lagging indicator. It relies on past data to provide a signal, which means that it can be slow to indicate reversals or sudden market shifts, as evidenced by the significant maximum drawdown of $-36.8\%$.
 > #### 3.3 PV Correlation
 > ![image](imgs/pv_portfolio_summary.png) | ![image](imgs/pv_monthly_return.png)
+> --- | ---
+> ![image](imgs/pv_cost_portfolio_summary.png) | ![image](imgs/pv_cost_monthly_return.png)
 > --- | ---
 >> The PV Correlation captures the synergy between price movements and volume, which is a cornerstone of market conviction. A positive correlation typically implies that price increases are supported by increased volume, suggesting a strong market consensus. This has likely contributed to the high cumulative return of $293.4\%$ and a Compound Annual Growth Rate (CAGR) of $83.61\%$, indicating that the strategy effectively capitalized on periods when price movements were validated by volume data.
 >>
